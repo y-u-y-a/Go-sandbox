@@ -1,0 +1,18 @@
+2020/08/11 21:40:38 index02.go:92: Logging！
+2020/08/11 21:40:38 index02.go:93: string test
+2020/08/11 21:40:38 index02.go:95: error！
+2020/08/11 21:41:24 index02.go:92: Logging！
+2020/08/11 21:41:24 index02.go:93: string test
+2020/08/11 21:41:24 index02.go:95: error！
+2020/08/11 21:41:34 index02.go:92: Logging！
+2020/08/11 21:41:34 index02.go:93: string test
+2020/08/11 21:42:09 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:92: Logging！
+2020/08/11 21:42:09 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:93: string test
+2020/08/11 21:59:13 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:103: Logging！
+2020/08/11 21:59:13 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:104: string test
+2020/08/11 21:59:57 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:103: Logging！
+2020/08/11 21:59:57 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:104: string test
+2020/08/11 22:00:18 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:103: Logging！
+2020/08/11 22:00:18 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:104: string test
+2020/08/11 22:24:47 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:103: Logging！
+2020/08/11 22:24:47 /Users/yuya/go/src/github.com/y-u-y-a/Go-sandbox/index02.go:104: string test

@@ -22,18 +22,17 @@ func (page *Page) save() error {
 	return ioutil.WriteFile(filename, page.Body, 0600)
 }
 
-// Read処理
-// 戻り値は２つ
+// Read処理(戻り値は２つ)
 func loadPage(title string) (*Page, error) {
 
 	filename := title + ".txt"
 	body, err := ioutil.ReadFile(filename)
 
-	// Bodyがない場合
+	// Bodyなし
 	if err != nil {
 		return nil, err
 	}
-	// Bodyがある場合
+	// Bodyあり
 	return &Page{
 		Title: title,
 		Body:  body}, nil

@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  # Swagger Editor
+  swagger-editor:
+    image: swaggerapi/swagger-editor
+    container_name: "swagger-editor"
+    ports:
+      - "8001:8080"
+  # Swagger UI
+  swagger-ui:
+    image: swaggerapi/swagger-ui
+    container_name: "swagger-ui"
+    ports:
+      - "8002:8080"
+    # volumes:
+    #   - ../api/swagger/openapi.yaml:/openapi.yaml
+    # environment:
+    #   SWAGGER_JSON: /openapi.yaml
+  # REST API
+  # api:
+  #   tty: true
+  #   build:
+  #     context: ../api
+  #     dockerfile: Dockerfile
+  #   container_name: 'api'
+  #   volumes:
+  #     - ../api/:/usr/app/
+  #     - /usr/app/node_modules
+  #   environment:
+  #     NODE_ENV: development
+  #   ports:
+  #     - '3000:3000'
+  #   command: 'npm run dev'
